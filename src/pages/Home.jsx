@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import Categories from "../components/Categories";
 import Card from "../components/Card";
 import Heading from "../components/Heading";
+import WhyChoseUs from "../components/WhyChoseUs";
 
 function Home() {
   const [shuffledData, setShuffledData] = useState([]); // Data yang diacak
@@ -74,6 +75,7 @@ function Home() {
           </section>
         )}
       </Categories>
+      <WhyChoseUs />
     </>
   );
 }
