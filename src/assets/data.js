@@ -11,7 +11,7 @@ const products = [
     ingredients: ["Tepung Terigu", "Bubuk Keju", "Minyak Kelapa Sawit"],
     rating: 4.5,
     available: true,
-    image: "./images/siip.png",
+    image: "./assets/images/siip.png",
   },
   {
     id: "P002",
@@ -25,7 +25,7 @@ const products = [
     ingredients: ["Singkong", "Gula", "Minyak Kelapa Sawit"],
     rating: 4.0,
     available: true,
-    image: "./images/boyki.png",
+    image: "./assets/images/boyki.png",
   },
   {
     id: "P003",
@@ -39,7 +39,7 @@ const products = [
     ingredients: ["Tepung Terigu", "Gula", "Mentega"],
     rating: 4.3,
     available: true,
-    image: "./images/superco.png",
+    image: "./assets/images/superco.png",
   },
   {
     id: "P004",
@@ -53,7 +53,7 @@ const products = [
     ingredients: ["Tepung Jagung", "Gula", "Garam"],
     rating: 4.2,
     available: true,
-    image: "./images/momogi.png",
+    image: "./assets/images/momogi.png",
   },
   {
     id: "P005",
@@ -67,7 +67,7 @@ const products = [
     ingredients: ["Air Berkarbonasi", "Gula", "Perisa Jeruk"],
     rating: 4.6,
     available: true,
-    image: "./images/fanta.png",
+    image: "./assets/images/fanta.png",
   },
   {
     id: "P006",
@@ -81,7 +81,7 @@ const products = [
     ingredients: ["Tepung Terigu", "Susu Bubuk", "Gula"],
     rating: 4.7,
     available: true,
-    image: "./images/bigrolls.png",
+    image: "./assets/images/bigrolls.png",
   },
   {
     id: "P007",
@@ -95,7 +95,7 @@ const products = [
     ingredients: ["Air", "Gula", "Ekstrak Teh"],
     rating: 4.4,
     available: true,
-    image: "./images/tehjavana.png",
+    image: "./assets/images/tehjavana.png",
   },
   {
     id: "P008",
@@ -109,7 +109,7 @@ const products = [
     ingredients: ["Cokelat", "Karamel", "Beras Renyah"],
     rating: 4.8,
     available: true,
-    image: "./images/bengbeng.png",
+    image: "./assets/images/bengbeng.png",
   },
   {
     id: "P009",
@@ -123,7 +123,7 @@ const products = [
     ingredients: ["Tepung Jagung", "Bubuk Keju", "Garam"],
     rating: 4.1,
     available: true,
-    image: "./images/chikiballs.png",
+    image: "./assets/images/chikiballs.png",
   },
   {
     id: "P010",
@@ -137,7 +137,7 @@ const products = [
     ingredients: ["Air", "Kopi", "Susu"],
     rating: 4.5,
     available: true,
-    image: "./images/golda.png",
+    image: "./assets/images/golda.png",
   },
   {
     id: "P011",
@@ -151,7 +151,7 @@ const products = [
     ingredients: ["Air Mineral"],
     rating: 4.5,
     available: true,
-    image: "./images/lemineral.png",
+    image: "./assets/images/lemineral.png",
   },
   {
     id: "P012",
@@ -165,7 +165,7 @@ const products = [
     ingredients: ["Cokelat", "Gula", "Beras Renyah"],
     rating: 4.6,
     available: true,
-    image: "./images/eyeglasscrispy.png",
+    image: "./assets/images/eyeglasscrispy.png",
   },
   {
     id: "P013",
@@ -179,7 +179,7 @@ const products = [
     ingredients: ["Tepung Jagung", "Gula", "Garam"],
     rating: 4.3,
     available: true,
-    image: "./images/twistko.png",
+    image: "./assets/images/twistko.png",
   },
   {
     id: "P014",
@@ -193,7 +193,7 @@ const products = [
     ingredients: ["Sirup Glukosa", "Gula", "Perisa Buah"],
     rating: 4.7,
     available: true,
-    image: "./images/yupi.png",
+    image: "./assets/images/yupi.png",
   },
   {
     id: "P015",
@@ -207,7 +207,7 @@ const products = [
     ingredients: ["Kakao", "Susu", "Gula"],
     rating: 4.2,
     available: true,
-    image: "./images/dilan.png",
+    image: "./assets/images/dilan.png",
   },
   {
     id: "P016",
@@ -221,7 +221,7 @@ const products = [
     ingredients: ["Kakao", "Gula", "Minyak Kelapa Sawit"],
     rating: 4.8,
     available: true,
-    image: "./images/chocolatos.png",
+    image: "./assets/images/chocolatos.png",
   },
   {
     id: "P017",
@@ -235,7 +235,7 @@ const products = [
     ingredients: ["Air", "Ekstrak Teh", "Gula"],
     rating: 4.3,
     available: true,
-    image: "./images/tehkotak.png",
+    image: "./assets/images/tehkotak.png",
   },
   {
     id: "P018",
@@ -250,7 +250,7 @@ const products = [
     ingredients: ["Air", "teh melati", "Gula", "perisa identik alami bunga melati"],
     rating: 4.3,
     available: true,
-    image: "./images/tehpucuk.png",
+    image: "./assets/images/tehpucuk.png",
   },
   {
     id: "P019",
@@ -274,7 +274,7 @@ const products = [
     ],
     rating: 4.5,
     available: true,
-    image: "./images/superstar.png",
+    image: "./assets/images/superstar.png",
   },
   {
     id: "P020",
@@ -289,7 +289,7 @@ const products = [
     ingredients: ["Air", "gula", "daun teh (4%)", "perisa identik alami teh"],
     rating: 4.4,
     available: true,
-    image: "./images/tehgelas.png",
+    image: "./assets/images/tehgelas.png",
   },
   {
     id: "P021",
@@ -312,7 +312,7 @@ const products = [
     ],
     rating: 4.6,
     available: true,
-    image: "./images/floridina.png",
+    image: "./assets/images/floridina.png",
   },
   {
     id: "P022",
@@ -334,7 +334,7 @@ const products = [
     ],
     rating: 4.5,
     available: true,
-    image: "./images/cocacola.png",
+    image: "./assets/images/cocacola.png",
   },
   {
     id: "P023",
@@ -349,7 +349,7 @@ const products = [
     ingredients: ["Gypsum fibrosum 450mg", "calcitum 225mg", "air sampai dengan 500mL"],
     rating: 4.5,
     available: true,
-    image: "./images/capkakitiga.png",
+    image: "./assets/images/capkakitiga.png",
   },
   {
     id: "P024",
@@ -364,7 +364,7 @@ const products = [
     ingredients: ["Minyak kelapa sawit", "vitamin A"],
     rating: 4.6,
     available: true,
-    image: "./images/sania.png",
+    image: "./assets/images/sania.png",
   },
   {
     id: "P025",
@@ -378,7 +378,7 @@ const products = [
     ingredients: ["Bahan aktif : 21%", "LAS Na", "SLES", "SLS", "CAPB"],
     rating: 4.5,
     available: true,
-    image: "./images/mamalemon.png",
+    image: "./assets/images/mamalemon.png",
   },
   {
     id: "P026",
@@ -393,7 +393,7 @@ const products = [
     ingredients: ["beras"],
     rating: 4.7,
     available: true,
-    image: "./images/beras.png",
+    image: "./assets/images/beras.png",
   },
   {
     id: "P027",
@@ -408,7 +408,7 @@ const products = [
     ingredients: ["Tebu Kuning"],
     rating: 4.5,
     available: true,
-    image: "./images/gulaku.png",
+    image: "./assets/images/gulaku.png",
   },
   {
     id: "P028",
@@ -434,7 +434,7 @@ const products = [
     ],
     rating: 4.6,
     available: true,
-    image: "./images/masako.png",
+    image: "./assets/images/masako.png",
   },
   {
     id: "P029",
@@ -449,7 +449,7 @@ const products = [
     ingredients: ["Gula merah", "sari kacang kedelai hitam", "air", "garam"],
     rating: 4.7,
     available: true,
-    image: "./images/kecapbango.png",
+    image: "./assets/images/kecapbango.png",
   },
   {
     id: "P030",
@@ -468,7 +468,7 @@ const products = [
     ],
     rating: 4.5,
     available: true,
-    image: "./images/rinso.png",
+    image: "./assets/images/rinso.png",
   },
   {
     id: "P031",
@@ -508,7 +508,7 @@ const products = [
     ],
     rating: 4.5,
     available: true,
-    image: "./images/lifebuoy.png",
+    image: "./assets/images/lifebuoy.png",
   },
 ];
 
