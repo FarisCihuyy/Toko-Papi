@@ -15,7 +15,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/promo" className="hover:text-yellow-400">
+            <a href="#promo" className="hover:text-yellow-400">
               Promo
             </Link>
           </li>
