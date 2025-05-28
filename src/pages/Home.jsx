@@ -60,8 +60,8 @@ function Home() {
           </section>
         )}
 
-        <Heading id="promo" title={"Promosi Minggu Ini"} />
-        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <Heading title={"Promosi Minggu Ini"} />
+        <div id="promo" className="mt-6 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {discountedProducts.slice(0, promoVisibleCount).map((product) => (
             <Card {...product} key={product.id} />
           ))}
